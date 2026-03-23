@@ -1,0 +1,6 @@
+h2{ text-align:center;}
+p{                                                 /*定义文本修饰样式*/
+font-size:16px; 
+color:red; 
+text-decoration:underline;
+}   
