@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>使用CSS控制单元格的宽度和高度</title>
+    <style type="text/css">
+         table{
+            border:1px solid #30F;     /*设置table的边框*/
+            border-collapse:collapse;   /*边框合并*/
+            }
+         th,td{
+            border:1px solid #30F;     /*为单元格单独设置边框*/
+         }
+         .one{ width:100px; height:80px;}   /*定义"东"单元格的宽度与高度*/
+         .two{ height:40px;}                       /*定义"西"单元格的高度*/
+         .three{ width:200px; }                    /*定义"南"单元格的宽度*/ 
+    </style>
+</head>
+<body>
+   <table>
+      <tr>
+         <td class="one"> A房间</td>
+         <td class="two"> B房间</td>
+      </tr>
+      <tr>
+         <td class="three"> C房间</td>
+         <td class="four"> D房间</td>
+      </tr>
+   </table>
+</body>
+</html>
+    
+    
+    

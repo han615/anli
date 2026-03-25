@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图像边框</title>
+    <style type="text/css">
+        p{
+            width:362px; 
+            height:362px;
+            border: 2px solid black;
+            border-image-source:url(images/4.png);   /*设置边框图片路径*/
+            border-image-slice:33%;           /*边框图像顶部、右侧、底部、左侧向内偏移量*/
+            border-image-width:40px;          /*设置边框宽度*/
+            border-image-outset:0;		      /*设置边框图像区域超出边框量*/
+            border-image-repeat:repeat;	      /*设置图片平铺方式*/
+            outline: solid;
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+</body>
+</html>
+    
+    
+    
+    

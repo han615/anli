@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pattern属性</title>
+</head>
+<body>
+<form action="#" method="get">
+    账&nbsp;&nbsp;&nbsp;&nbsp;号：<input type="text" name="username" pattern="^[a-zA-Z][a-zA-Z0-9_]{4,15}$" />（以字母开头，长度为5~16，只能包含字母、数字和下划线）<br/>
+    密&nbsp;&nbsp;&nbsp;&nbsp;码：<input type="password" name="pwd" pattern="^[a-zA-Z]\w{5,17}$" />（以字母开头，长度为6~18，只能包含字母、数字和下划线）<br/>
+    身份证号：<input type="text" name="mycard" pattern="^\d{15}|\d{18}$" />（15位、18位数字）<br/>
+    电子邮箱：<input type="email" name="myemail" pattern="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$"/>
+    <input type="submit" value="提交"/>
+</form>
+</body>
+</html>
+
+
+
+
+   

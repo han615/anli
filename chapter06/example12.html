@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>元素的转换</title>
+<style type="text/css">
+div,span{                    /*同时设置div和span的样式*/    
+	width:200px;             /*宽度*/
+	height:50px;             /*高度*/
+	background:#FCC;      /*背景颜色*/
+	margin:10px;           /*外边距*/
+}
+.d_one,.d_two{display:inline;}     /*将前两个div转换为行内元素*/
+.s_one{display:inline-block;}      /*将第一个span转换为行内块元素*/
+.s_three{display:block;}           /*将第三个span转换为块元素*/
+
+</style>
+</head>
+<body>
+	<div class="d_one">第1个div元素中的文本</div>
+	<div class="d_two">第2个div元素中的文本</div>
+	<div class="d_three">第3个div元素中的文本</div>
+	<span class="s_one">第1个span元素中的文本</span>
+	<span class="s_two">第2个span元素中的文本</span>
+	<span class="s_three">第3个span元素中的文本</span>
+</body>
+</html>
+
+
+
+

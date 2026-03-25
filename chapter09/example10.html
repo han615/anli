@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation-duration 属性</title>
+    <style type="text/css">
+    img{
+        width:200px;
+        animation-name:mymove;             /*定义动画名称*/
+        animation-duration:10s;            /*定义动画时间*/
+        }
+    @keyframes mymove{
+        from {transform:translate(0) rotateY(180deg);}
+        50% {transform:translate(1000px) rotateY(180deg);}
+        51% {transform:translate(1000px) rotateY(0deg);}
+        to {transform:translate(0) rotateY(0deg);}
+        }
+    </style>
+</head>
+<body>
+    <img src="images/bozai.gif" >
+</body>
+</html>
+    
+    
+    
+
+    
